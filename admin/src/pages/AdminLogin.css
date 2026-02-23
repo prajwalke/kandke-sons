@@ -1,0 +1,62 @@
+/* Admin Login Page - Modern and Responsive */
+
+/* Full-page background */
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+/* Login form */
+.admin-login-box {
+  width: 350px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Title */
+.admin-login-box h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.admin-login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button */
+.admin-login-box button {
+  width: 100%;
+  padding: 12px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.admin-login-box button:hover {
+  background: #45a049;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .admin-login-box {
+    width: 90%;
+  }
+}
